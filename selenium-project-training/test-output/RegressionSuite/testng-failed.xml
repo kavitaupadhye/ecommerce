@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.selenium.report.ListenerCode"/>
+    <listener class-name="com.selenium.report.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="TC 02 - Orange HRM Login(failed)" verbose="4">
+    <classes>
+      <class name="com.selenium.testng.OrangeHRMLoginTestCase">
+        <methods>
+          <include name="postCondition"/>
+          <include name="loginAdmin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.selenium.testng.OrangeHRMLoginTestCase -->
+    </classes>
+  </test> <!-- TC 02 - Orange HRM Login(failed) -->
+  <test thread-count="3" parallel="tests" name="TC 01 - Mutual Fund Login(failed)" verbose="4">
+    <classes>
+      <class name="com.selenium.testng.MutualFundLoginTestCase">
+        <methods>
+          <include name="preCondition"/>
+          <include name="loginSpeed"/>
+          <include name="postCondition"/>
+          <include name="loginAdmin"/>
+        </methods>
+      </class> <!-- com.selenium.testng.MutualFundLoginTestCase -->
+    </classes>
+  </test> <!-- TC 01 - Mutual Fund Login(failed) -->
+  <test thread-count="3" parallel="tests" name="TC 03 - Zoopla using Hard Assert(failed)" verbose="4">
+    <classes>
+      <class name="com.selenium.testng.HardAssertTest">
+        <methods>
+          <include name="propertyDetailTest"/>
+          <include name="beforeTest"/>
+          <include name="verifySearchTest"/>
+          <include name="homePageTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.selenium.testng.HardAssertTest -->
+    </classes>
+  </test> <!-- TC 03 - Zoopla using Hard Assert(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

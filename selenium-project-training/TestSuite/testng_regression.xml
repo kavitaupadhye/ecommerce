@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="4" parallel="none"
+	thread-count="3">
+
+
+	<listeners>
+		<listener class-name="com.selenium.report.ListenerCode" />
+		<listener class-name="com.selenium.report.ExtentTestNGIReporterListener" />
+	</listeners>
+
+
+
+	<test name="TC 01 - fixed deposit">
+		<classes>
+			<class name="com.selenium.keyworddriven.FixedDeposit_Test" />
+		</classes>
+	</test> <!-- RegressionTest -->
+
+
+	<test name="TC 02 - calculator">
+		<classes>
+			<class name="com.selenium.keyworddriven.Calculator_Test" />
+		</classes>
+	</test> <!-- RegressionTest -->
+
+
+
+	<test name="TC 03 - blaze-demo ">
+		<classes>
+			<class name="com.selenium.keyworddriven.BlazeDemo_Test" />
+		</classes>
+	</test> <!-- RegressionTest -->
+
+
+	
+
+
+
+</suite> <!-- Suite -->

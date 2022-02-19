@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AssignmentSuite"  verbose="4" parallel="tests" thread-count="3">
+
+  <test name="TC 01 - PolicyX">
+    <classes>
+                  <class name="com.selenium.testng.MutualFundLoginTestCase"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+  
+  
+   <test name="TC 02 - Snapdeal">
+    <classes>
+                <class name="com.selenium.testng.OrangeHRMLoginTestCase"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

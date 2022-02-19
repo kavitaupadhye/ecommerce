@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" verbose="4" parallel="tests"
+	thread-count="3">
+
+
+	<listeners>
+		<listener class-name="com.selenium.report.ListenerCode" />
+		<listener class-name="com.selenium.report.ExtentTestNGIReporterListener" />
+	</listeners>
+
+
+
+	<test name="TC 01 - Mutual Fund Login">
+		<classes>
+			<class name="com.selenium.testng.MutualFundLoginTestCase" />
+		</classes>
+	</test> <!-- RegressionTest -->
+
+
+	<test name="TC 02 - Orange HRM Login">
+		<classes>
+			<class name="com.selenium.testng.OrangeHRMLoginTestCase" />
+		</classes>
+	</test> <!-- RegressionTest -->
+
+
+
+	<test name="TC 03 - Zoopla using Hard Assert">
+		<classes>
+			<class name="com.selenium.testng.HardAssertTest" />
+		</classes>
+	</test> <!-- RegressionTest -->
+
+
+	<test name="TC 04 - Fixed Deposit Calculation">
+		<classes>
+			<class name="com.selenium.keyworddriven.FixedDeposit_Test" />
+		</classes>
+	</test> <!-- Smoke TesT -->
+
+
+
+</suite> <!-- Suite -->

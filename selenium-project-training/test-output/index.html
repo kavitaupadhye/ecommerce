@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RegressionSuite" class="navigator-link">
+              <span class="suite-name border-skipped">RegressionSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RegressionSuite" class="navigator-link ">
+                    <span>F:\Selenium_K\Sir_project_file\selenium-project-training\testng_regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RegressionSuite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RegressionSuite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RegressionSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RegressionSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RegressionSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RegressionSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,  6 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods skipped suite-RegressionSuite"> (hide)</a> <!-- hide-methods skipped suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods skipped suite-RegressionSuite"> (show)</a> <!-- show-methods skipped suite-RegressionSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-RegressionSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.selenium.testng.HardAssertTest" class="method navigator-link" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.selenium.testng.OrangeHRMLoginTestCase" class="method navigator-link" hash-for-method="loginAdmin">loginAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.selenium.testng.MutualFundLoginTestCase" class="method navigator-link" hash-for-method="loginAdmin">loginAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.selenium.testng.MutualFundLoginTestCase" class="method navigator-link" hash-for-method="loginSpeed">loginSpeed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.selenium.testng.HardAssertTest" class="method navigator-link" hash-for-method="propertyDetailTest">propertyDetailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.selenium.testng.HardAssertTest" class="method navigator-link" hash-for-method="verifySearchTest">verifySearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-RegressionSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods passed suite-RegressionSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods passed suite-RegressionSuite"> (show)</a> <!-- show-methods passed suite-RegressionSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.selenium.keyworddriven.FixedDeposit_Test" class="method navigator-link" hash-for-method="FixedDeposit_10000">FixedDeposit_10000</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionSuite" class="panel RegressionSuite">
+          <div class="suite-RegressionSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.selenium.testng.OrangeHRMLoginTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAdmin">
+                  </a> <!-- loginAdmin -->
+                  <span class="method-name">loginAdmin</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 98.0.4758.82 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GOTDN6L&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B1BDE3+2473443]
+	Ordinal0 [0x00AB6661+2057825]
+	Ordinal0 [0x009C2438+1057848]
+	Ordinal0 [0x009E054A+1181002]
+	Ordinal0 [0x009DC435+1164341]
+	Ordinal0 [0x009D9CAF+1154223]
+	Ordinal0 [0x00A09ADF+1350367]
+	Ordinal0 [0x00A0974A+1349450]
+	Ordinal0 [0x00A055AB+1332651]
+	Ordinal0 [0x009E2104+1188100]
+	Ordinal0 [0x009E2F59+1191769]
+	GetHandleVerifier [0x00CA2266+1549718]
+	GetHandleVerifier [0x00D4D4A7+2250711]
+	GetHandleVerifier [0x00BA718B+521403]
+	GetHandleVerifier [0x00BA6229+517465]
+	Ordinal0 [0x00ABB79D+2078621]
+	Ordinal0 [0x00ABFB58+2095960]
+	Ordinal0 [0x00ABFC92+2096274]
+	Ordinal0 [0x00AC9541+2135361]
+	BaseThreadInitThunk [0x771FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77E87A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E87A6E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.selenium.testng.OrangeHRMLoginTestCase.preCondition(OrangeHRMLoginTestCase.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test case to verify 'admin' login functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-skipped -->
+          <div class="suite-RegressionSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.selenium.testng.HardAssertTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTest">
+                  </a> <!-- homePageTest -->
+                  <span class="method-name">homePageTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 98.0.4758.82 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GOTDN6L&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B1BDE3+2473443]
+	Ordinal0 [0x00AB6661+2057825]
+	Ordinal0 [0x009C2438+1057848]
+	Ordinal0 [0x009E054A+1181002]
+	Ordinal0 [0x009DC435+1164341]
+	Ordinal0 [0x009D9CAF+1154223]
+	Ordinal0 [0x00A09ADF+1350367]
+	Ordinal0 [0x00A0974A+1349450]
+	Ordinal0 [0x00A055AB+1332651]
+	Ordinal0 [0x009E2104+1188100]
+	Ordinal0 [0x009E2F59+1191769]
+	GetHandleVerifier [0x00CA2266+1549718]
+	GetHandleVerifier [0x00D4D4A7+2250711]
+	GetHandleVerifier [0x00BA718B+521403]
+	GetHandleVerifier [0x00BA6229+517465]
+	Ordinal0 [0x00ABB79D+2078621]
+	Ordinal0 [0x00ABFB58+2095960]
+	Ordinal0 [0x00ABFC92+2096274]
+	Ordinal0 [0x00AC9541+2135361]
+	BaseThreadInitThunk [0x771FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77E87A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E87A6E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.selenium.testng.HardAssertTest.beforeTest(HardAssertTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test case to verify home page functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="propertyDetailTest">
+                  </a> <!-- propertyDetailTest -->
+                  <span class="method-name">propertyDetailTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 98.0.4758.82 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GOTDN6L&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B1BDE3+2473443]
+	Ordinal0 [0x00AB6661+2057825]
+	Ordinal0 [0x009C2438+1057848]
+	Ordinal0 [0x009E054A+1181002]
+	Ordinal0 [0x009DC435+1164341]
+	Ordinal0 [0x009D9CAF+1154223]
+	Ordinal0 [0x00A09ADF+1350367]
+	Ordinal0 [0x00A0974A+1349450]
+	Ordinal0 [0x00A055AB+1332651]
+	Ordinal0 [0x009E2104+1188100]
+	Ordinal0 [0x009E2F59+1191769]
+	GetHandleVerifier [0x00CA2266+1549718]
+	GetHandleVerifier [0x00D4D4A7+2250711]
+	GetHandleVerifier [0x00BA718B+521403]
+	GetHandleVerifier [0x00BA6229+517465]
+	Ordinal0 [0x00ABB79D+2078621]
+	Ordinal0 [0x00ABFB58+2095960]
+	Ordinal0 [0x00ABFC92+2096274]
+	Ordinal0 [0x00AC9541+2135361]
+	BaseThreadInitThunk [0x771FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77E87A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E87A6E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.selenium.testng.HardAssertTest.beforeTest(HardAssertTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test case to verify property detail functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchTest">
+                  </a> <!-- verifySearchTest -->
+                  <span class="method-name">verifySearchTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HardAssertTest.verifySearchTest()[pri:1, instance:com.selenium.testng.HardAssertTest@2ea41516] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test case to verify Search functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-skipped -->
+          <div class="suite-RegressionSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.selenium.testng.MutualFundLoginTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAdmin">
+                  </a> <!-- loginAdmin -->
+                  <span class="method-name">loginAdmin</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 98.0.4758.82 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GOTDN6L&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B1BDE3+2473443]
+	Ordinal0 [0x00AB6661+2057825]
+	Ordinal0 [0x009C2438+1057848]
+	Ordinal0 [0x009E054A+1181002]
+	Ordinal0 [0x009DC435+1164341]
+	Ordinal0 [0x009D9CAF+1154223]
+	Ordinal0 [0x00A09ADF+1350367]
+	Ordinal0 [0x00A0974A+1349450]
+	Ordinal0 [0x00A055AB+1332651]
+	Ordinal0 [0x009E2104+1188100]
+	Ordinal0 [0x009E2F59+1191769]
+	GetHandleVerifier [0x00CA2266+1549718]
+	GetHandleVerifier [0x00D4D4A7+2250711]
+	GetHandleVerifier [0x00BA718B+521403]
+	GetHandleVerifier [0x00BA6229+517465]
+	Ordinal0 [0x00ABB79D+2078621]
+	Ordinal0 [0x00ABFB58+2095960]
+	Ordinal0 [0x00ABFC92+2096274]
+	Ordinal0 [0x00AC9541+2135361]
+	BaseThreadInitThunk [0x771FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77E87A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77E87A6E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.selenium.testng.MutualFundLoginTestCase.preCondition(MutualFundLoginTestCase.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test case to verify 'admin' login functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSpeed">
+                  </a> <!-- loginSpeed -->
+                  <span class="method-name">loginSpeed</span>
+                  <div class="stack-trace">java.lang.Throwable: Method MutualFundLoginTestCase.loginSpeed()[pri:2, instance:com.selenium.testng.MutualFundLoginTestCase@57d7f8ca] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test case to verify 'sspeed' login functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-skipped -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.keyworddriven.FixedDeposit_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FixedDeposit_10000">
+                  </a> <!-- FixedDeposit_10000 -->
+                  <span class="method-name">FixedDeposit_10000</span>
+                  <em>
+(Fixed depost for 10000)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+        </div> <!-- panel RegressionSuite -->
+        <div panel-name="test-xml-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Selenium_K\Sir_project_file\selenium-project-training\testng_regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;RegressionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;4&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.selenium.report.ListenerCode&quot;/&gt;
+    &lt;listener class-name=&quot;com.selenium.report.ExtentTestNGIReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;TC 01 - Mutual Fund Login&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.testng.MutualFundLoginTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC 01 - Mutual Fund Login --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;TC 02 - Orange HRM Login&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.testng.OrangeHRMLoginTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC 02 - Orange HRM Login --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;TC 03 - Zoopla using Hard Assert&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.testng.HardAssertTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC 03 - Zoopla using Hard Assert --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;TC 04 - Fixed Deposit Calculation&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.keyworddriven.FixedDeposit_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC 04 - Fixed Deposit Calculation --&gt;
+&lt;/suite&gt; &lt;!-- RegressionSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC 01 - Mutual Fund Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC 02 - Orange HRM Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC 03 - Zoopla using Hard Assert (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC 04 - Fixed Deposit Calculation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginAdmin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginSpeed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionSuite');
+function tableData_RegressionSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FixedDeposit_10000')
+data.setCell(0, 2, 'com.selenium.keyworddriven.FixedDeposit_Test')
+data.setCell(0, 3, 14106);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginAdmin')
+data.setCell(1, 2, 'com.selenium.testng.OrangeHRMLoginTestCase')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginAdmin')
+data.setCell(2, 2, 'com.selenium.testng.MutualFundLoginTestCase')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginSpeed')
+data.setCell(3, 2, 'com.selenium.testng.MutualFundLoginTestCase')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'propertyDetailTest')
+data.setCell(4, 2, 'com.selenium.testng.HardAssertTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'homePageTest')
+data.setCell(5, 2, 'com.selenium.testng.HardAssertTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifySearchTest')
+data.setCell(6, 2, 'com.selenium.testng.HardAssertTest')
+data.setCell(6, 3, 0);
+window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-RegressionSuite">
+              </div> <!-- times-div-RegressionSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.testng.MutualFundLoginTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginTestUser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.testng.OrangeHRMLoginTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">preCondition</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.testng.HardAssertTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">85 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.testng.MutualFundLoginTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">preCondition</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginAdmin</span>
+                <span class="method-start">10974 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.testng.OrangeHRMLoginTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginAdmin</span>
+                <span class="method-start">10974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">10989 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.testng.MutualFundLoginTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginSpeed</span>
+                <span class="method-start">10991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">10997 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.testng.HardAssertTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageTest</span>
+                <span class="method-start">11479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchTest</span>
+                <span class="method-start">11516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">propertyDetailTest</span>
+                <span class="method-start">11520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">11526 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.keyworddriven.FixedDeposit_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">11558 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">FixedDeposit_10000</span>
+                <span class="method-start">17769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">31880 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
